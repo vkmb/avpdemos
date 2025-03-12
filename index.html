@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AVP ROS Demo</title>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <pre>
+                This web page hosts demonstrations of ROS Integration with Apple Vision Pro generated as part of master thesis.
+            </pre>
+            <div id="handAnchor">
+                <pre>Anchor user interfaces to hands for better usability</pre>
+                <video src="AnchoringToHand.mp4" width="640" height="480"></video>
+            </div>
+            <div id="rosSubscription">
+                <pre>String message received using ROS Bridge Subscription Op</pre>
+                <video src="RosSubscription.mp4" width="640" height="480"></video>
+                <img src="RosStringPub.png" width="640" height="480">
+            </div>
+
+            <div id="pingPong">
+                <pre>String message published and received using ROS Bridge</pre>
+                <video src="PingPong.mp4" width="640" height="480"></video>
+            </div>
+
+            <div id="localizeRobot">
+                <pre>Load Robot Model at the specified static transform, localized with Image Anchor</pre>
+                <video src="AnchoringToQRCode.mp4" width="640" height="480"></video>
+                <img src="ImageAnchorToWorld.png" width="640" height="480">
+            </div>
+
+            <div id="robotIK">
+                <pre>UR5 MoveIt Execute Trajectory using Gesture Inputs from Apple Vision Pro</pre>
+                <video src="RobotIK.mp4" width="640" height="480">
+                </video>
+            </div>
+
+            <div id="pointCloud">
+                <pre>Realtime rendering of PointCloud2 received over ROS Bridge</pre>
+                <img src="PointCloud2.png" width="640" height="480">
+            </div>
+
+        </div>
+    </body>
+</html>
